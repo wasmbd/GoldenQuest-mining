@@ -3,7 +3,57 @@ guid: cc66459064619af479660b0c7711fe16
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1fe08c15a54f134
+    second: {fileID: 2800000, guid: a51660b502838024e97460431c051488, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 26fb3b86e35935c7
+    second: {fileID: 2800000, guid: b7f33ceaa00232245afe82b0fcab4d96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2d2ed6071e6ae65
+    second: {fileID: 2800000, guid: 0ba8e29c657631c44ace1f0933fb5f9e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 77a2afca56d6fff2
+    second: {fileID: 2800000, guid: 6e3aef532c78d6749a05c4a4fdd65d48, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 8daa533d0ee6acb
+    second: {fileID: 2800000, guid: df416c9e836cf2e46be54daf77756255, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 9ad36810d4274119
+    second: {fileID: 2800000, guid: e63e75f2e0a8ac14ba888a4aaf34b94f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 9edfc5fb63ab1b09
+    second: {fileID: 2800000, guid: 063daa5b166337941b15a5a095b4cd09, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: b05a46530b5f413b
+    second: {fileID: 2800000, guid: 196530f072c893f4f837a6c277be774c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bd62ec9eb662081e
+    second: {fileID: 2800000, guid: 8167d11810ed6ee4aab610c8365611b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: e00065727c8c7bad
+    second: {fileID: 2800000, guid: 779672b9e6262b94890f358e3e9aba10, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -16,7 +66,8 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -24,7 +75,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -97,9 +148,9 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
