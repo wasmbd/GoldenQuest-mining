@@ -1985,6 +1985,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5902325313410981217, guid: 0f08ec34b0f7bf449a1034dd374c2dcd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.760138
+      objectReference: {fileID: 0}
+    - target: {fileID: -5902325313410981217, guid: 0f08ec34b0f7bf449a1034dd374c2dcd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.7623
+      objectReference: {fileID: 0}
+    - target: {fileID: -5902325313410981217, guid: 0f08ec34b0f7bf449a1034dd374c2dcd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.8479
+      objectReference: {fileID: 0}
     - target: {fileID: -5356546350915855791, guid: 0f08ec34b0f7bf449a1034dd374c2dcd,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2131,6 +2146,10 @@ PrefabInstance:
     - {fileID: 7349655231179780853, guid: 0f08ec34b0f7bf449a1034dd374c2dcd, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3820703022838306936, guid: 0f08ec34b0f7bf449a1034dd374c2dcd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1444481519}
     - targetCorrespondingSourceObject: {fileID: 6131738955987061226, guid: 0f08ec34b0f7bf449a1034dd374c2dcd,
         type: 3}
       insertIndex: -1
@@ -13209,10 +13228,10 @@ Animator:
   m_GameObject: {fileID: 873573558}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bbe9dde3d1b5cd94798ad3c80fa5ac67, type: 2}
+  m_Controller: {fileID: 9100000, guid: 486050035ac78434885427eb9cc607d7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -22581,6 +22600,158 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8538700168667832349, guid: 57887c62665ff6b40901269d1a4297f4, type: 3}
+--- !u!1 &1444481515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3820703022838306936, guid: 0f08ec34b0f7bf449a1034dd374c2dcd,
+    type: 3}
+  m_PrefabInstance: {fileID: 146454051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1444481519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444481515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317e663e2bb60ea408fe22b908b59295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 0}
+  _surfacePatch: {fileID: 0}
+  _enterHoverNormal: 0.03
+  _enterHoverTangent: 0
+  _exitHoverNormal: 0.05
+  _exitHoverTangent: 0
+  _cancelSelectNormal: 0.3
+  _cancelSelectTangent: 0.03
+  _minThresholds:
+    Enabled: 0
+    MinNormal: 0.01
+  _dragThresholds:
+    Enabled: 1
+    DragNormal: 0.01
+    DragTangent: 0.01
+    DragEaseCurve:
+      _animationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _animationLength: 0.05
+  _positionPinning:
+    Enabled: 0
+    MaxPinDistance: 0.075
+    PinningEaseCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    ResyncCurve:
+      _animationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _animationLength: 0.2
+  _recoilAssist:
+    Enabled: 0
+    UseDynamicDecay: 0
+    DynamicDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 50
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.9
+        value: 0.5
+        inSlope: -47
+        outSlope: -47
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseVelocityExpansion: 0
+    VelocityExpansionMinSpeed: 0.4
+    VelocityExpansionMaxSpeed: 1.4
+    VelocityExpansionDistance: 0.055
+    VelocityExpansionDecayRate: 0.125
+    ExitDistance: 0.02
+    ReEnterDistance: 0.02
+  _closeDistanceThreshold: 0.001
+  _tiebreakerScore: 0
 --- !u!64 &1450101006
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31833,7 +32004,7 @@ Animator:
   m_GameObject: {fileID: 1979518166}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: afff70d72e1784f4498dfdbd91fbdabc, type: 2}
+  m_Controller: {fileID: 9100000, guid: a9edf3389b55eca4995361bb0c89de33, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
