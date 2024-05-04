@@ -27,7 +27,7 @@ public class Change_Material : MonoBehaviour
 
         leftRenderer.material = New_material;
         rightRenderer.material = New_material;
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.5f);
         Destroy(Particle);
 
     }

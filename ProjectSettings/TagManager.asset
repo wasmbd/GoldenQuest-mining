@@ -7,6 +7,7 @@ TagManager:
   - LampControl
   - Rock
   - Hammer
+  - Sensor
   layers:
   - Default
   - TransparentFX
