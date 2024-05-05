@@ -1762,6 +1762,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5598f3df7bbd0f5468dc231966793c29, type: 2}
+    - target: {fileID: -4216806265322969121, guid: 0f08ec34b0f7bf449a1034dd374c2dcd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4846294
+      objectReference: {fileID: 0}
     - target: {fileID: -3708814644144778135, guid: 0f08ec34b0f7bf449a1034dd374c2dcd,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12152,6 +12157,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1029407570}
+    - targetCorrespondingSourceObject: {fileID: 8935339931561760871, guid: f7f60713a7630b349a21962e44bc0b9e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1029407571}
   m_SourcePrefab: {fileID: 100100000, guid: f7f60713a7630b349a21962e44bc0b9e, type: 3}
 --- !u!1 &953079515
 GameObject:
@@ -13662,7 +13671,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029407569}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d156b5c5a0a1b14b957e3a5a1e5d8fa, type: 3}
   m_Name: 
@@ -13671,6 +13680,18 @@ MonoBehaviour:
   rightDoor: {fileID: 1979518166}
   leftOpenAnimation: {fileID: 7400000, guid: 5913ba4fc6c52d84b91417d75126ee8c, type: 2}
   rightOpenAnimation: {fileID: 7400000, guid: 22a6e81b0fed8be49b83836c0057f5e3, type: 2}
+--- !u!114 &1029407571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029407569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 502510f8019718f44bed1c40f49f4b72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1047951177
 GameObject:
   m_ObjectHideFlags: 0
