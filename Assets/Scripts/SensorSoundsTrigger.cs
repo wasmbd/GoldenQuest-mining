@@ -5,7 +5,11 @@ using UnityEngine;
 public class SensorSoundsTrigger : MonoBehaviour
 {
     public AudioSource SensorSound;
-     void OnTriggerEnter(Collider other)
+    private void Start()
+    {
+        SensorSound.GetComponent<AudioSource>();
+    }
+    void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Sensor")
         {
@@ -20,4 +24,12 @@ public class SensorSoundsTrigger : MonoBehaviour
             SensorSound.Stop();
         }
     }
+   /* private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Sensor"))
+        {
+            SensorSound.Play();
+        }
+
+    }*/
 }
