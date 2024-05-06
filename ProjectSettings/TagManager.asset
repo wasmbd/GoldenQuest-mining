@@ -8,6 +8,7 @@ TagManager:
   - Rock
   - Hammer
   - Sensor
+  - active2
   layers:
   - Default
   - TransparentFX
